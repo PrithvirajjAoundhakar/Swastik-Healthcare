@@ -1,0 +1,92 @@
+<html>
+ <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+          background-image: url(img/bg.jpg.jpg);
+          background-size: cover; 
+          background-repeat: no-repeat;
+          background-position: center; 
+        }
+      </style>
+    <title>Swastik</title>
+    
+</head>
+
+<body>
+    <header>
+        <nav id="Navbar" class="navbar">
+            <div class="container">
+              <h1><a href="index.html">The SWASTIK HEALTH CARE</a></h1>
+              <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+              </button>
+              <ul class="nav-links">
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">Our Doctors</a></li>
+                <li><a href="contact.html">Donate blood</a></li>
+                <li class="dropdown">
+                  <a href="about.html" class="dropbtn">Services</a>
+                  <div class="dropdown-content">
+                    <a href="about.html">Physiotherapy</a>
+                    <a href="about.html">Neurology</a>
+                    <a href="about.html">Orthopedics</a>
+                    <li><a href="Appoint.html">Make An Appointment</a></li>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>    
+</header>
+<div class="contact">
+ 
+</div>
+<body>
+    <div class="form-container">
+        <h2>Appointment Form</h2>
+        <form action="SUBMIT.HTML" >
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="week">You Are Free To Come On</label>
+                <select id="week" name="week" required>
+                    <option value="">Select a WeekDay Becoz we're Busy on Weekend</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tueday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+    </style>
+     <footer class="main-footer">
+       <br>  <p>THE SWASTIK HEALTH CARE ©, All Right Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
